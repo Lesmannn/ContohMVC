@@ -6,6 +6,7 @@ using Agate.MVC.Core;
 using UnityEngine.EventSystems;
 using Me.ContohMVC.HomeScreen;
 using Me.ContohMVC.Gameplay;
+using Me.ContohMVC.Save;
 
 namespace Me.ContohMVC
 {
@@ -18,7 +19,9 @@ namespace Me.ContohMVC
 
         protected override IController[] GetDependencies()
         {
-            return null;
+            return new IController[]{
+                new SaveController()
+            };
         }
 
         protected override IEnumerator StartInit()

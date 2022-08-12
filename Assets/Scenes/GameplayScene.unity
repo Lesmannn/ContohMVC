@@ -350,6 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31dcbc75cc3e01e449c5087d1154abc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClickGameView: {fileID: 1567357987}
 --- !u!4 &663172916
 Transform:
   m_ObjectHideFlags: 0
@@ -955,7 +956,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000015259, y: 165}
-  m_SizeDelta: {x: 229.182, y: 83.093}
+  m_SizeDelta: {x: 465.689, y: 83.093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041547025
 MonoBehaviour:
